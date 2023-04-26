@@ -1,0 +1,40 @@
+:root {
+    --color-background-light: #fff;
+    --color-text-light: #333;
+    --color-primary-light: #4a8df6;
+    --color-primary-hover-light: #2175f5;
+  
+    --color-background-dark: #333;
+    --color-text-dark: #fff;
+    --color-primary-dark: #fff;
+    --color-primary-hover-dark: #ccc;
+  }
+  
+  .dark-theme {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+  
+    .auth-option {
+      background-color: var(--color-primary-dark);
+      color: var(--color-background-dark);
+  
+      &:hover {
+        background-color: var(--color-primary-hover-dark);
+      }
+    }
+  }
+  
+  .light-theme {
+    background-color: var(--color-background-light);
+    color: var(--color-text-light);
+  
+    .auth-option {
+      background-color: var(--color-primary-light);
+      color: var(--color-background-light);
+  
+      &:hover {
+        background-color: var(--color-primary-hover-light);
+      }
+    }
+  }
+  

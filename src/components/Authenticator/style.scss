@@ -1,0 +1,78 @@
+.authenticator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color-primary-light);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 10px;
+  
+    .logo {
+      width: 150px;
+      margin-bottom: 40px;
+    }
+  
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .auth-option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      text-align: center;
+      width: 90%;
+  
+      &:hover {
+        background-color: var(--color-primary-hover-light);
+      }
+      .icon {
+        margin-right: 8px;
+        width: 18px;
+      }
+    }
+  
+    // Estilos para dispositivos maiores
+    @media (min-width: 768px) {
+      .logo {
+        width: 100px;
+        margin-bottom: 40px;
+      }
+  
+      .title {
+        font-size: 36px;
+      }
+  
+      .auth-options {
+        display: flex;
+        padding: 10px 20px;
+        flex-direction: column !important;
+  
+        .auth-option {
+          text-decoration: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          font-size: 18px;
+          font-weight: bold;
+          transition: background-color 0.3s;
+          text-align: center;
+          width: 90%;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  

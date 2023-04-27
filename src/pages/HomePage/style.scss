@@ -56,4 +56,11 @@
       gap: 0;
     }
   }
+
+  .authenticator-container {
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

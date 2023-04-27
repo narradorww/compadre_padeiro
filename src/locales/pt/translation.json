@@ -1,12 +1,19 @@
 {
     "homePage": {
-      "title": "Compadre Padeiro",
-      "login": "Entrar",
-      "register": "Cadastrar"
+      "title": "Compadre Padeiro"
     },
     "header":
     {
-      "title":"Compadre Padeiro, A rede social daqueles que amam fazer pão"
+      "title":"Compadre Padeiro: A rede social daqueles que amam fazer pão"
+    }, 
+    "authenticator":{
+      "cta": "Junte-se a nós!",
+      "loginFacebook": "Entrar com Facebook",
+      "loginGoogle": "Entrar com Google",
+      "login": "Entrar com Email",
+      "register": "Cadastrar"
     }
+      
+      
   }
   

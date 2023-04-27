@@ -1,12 +1,18 @@
 {
     "homePage": {
-      "title": "Compadre Padeiro",
-      "login": "Login",
-      "register": "Register"
+      "title": "Compadre Padeiro"
+
     },
     "header":
     {
-      "title":"Compadre Padeiro, The Social Network for Bakers"
+      "title":"Compadre Padeiro: The Social Network for Bakers"
+    },
+    "authenticator":{
+      "cta": "Join us!It's free!",
+      "loginFacebook": "Login with Facebook",
+      "loginGoogle": "Login with Google",
+      "login": "Login with Email",
+      "register": "Register"
     }
 
 

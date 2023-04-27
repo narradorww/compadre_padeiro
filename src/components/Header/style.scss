@@ -1,0 +1,72 @@
+@import './../../styles/theme.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+
+  .logo {
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 20px;
+
+    a {
+      text-decoration: none;
+      color: var(--color-background);
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--color-background-hover);
+      }
+
+      &.active {
+        color: var(--color-background-active);
+      }
+    }
+  
+
+
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: var(--color-background);
+      transition: fill 0.3s;
+    }
+
+    &:hover svg {
+      fill: var(--color-background-hover);
+    }
+  }
+
+  // Estilos para dispositivos maiores
+  @media (min-width: 768px) {
+    .logo {
+      width: 100px;
+    }
+
+    .nav {
+      gap: 40px;
+
+      a {
+        font-size: 20px;
+      }
+    }
+
+    .toggle-theme {
+      font-size: 20px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

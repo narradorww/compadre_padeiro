@@ -13,6 +13,12 @@
       "loginGoogle": "Login with Google",
       "login": "Login with Email",
       "register": "Register"
+    }, 
+    "welcome":{
+      "title": "🍞 Welcome to Compadre Padeiro, the ultimate social network for amateur bakers!",
+      "copy1": "👩‍🍳 Dive into a world of bread-making where you can discover and share recipes, exchange messages, and post your baking experiences. Our friendly community is always ready to learn, grow, and help each other in the pursuit of the perfect loaf.",
+      "cta": "Join us!It's free!"
+    
     }
 
 

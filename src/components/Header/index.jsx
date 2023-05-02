@@ -18,7 +18,7 @@ const Header = () => {
           alt="Compadre Padeiro"
           className="logo"
         />
-      <div>{t('header.title')}</div>
+      <div className='title'>{t('header.title')}</div>
       <div className="header__right">
         <LanguageSelector />
         <ThemeToggle darkTheme={darkTheme} />

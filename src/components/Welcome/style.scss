@@ -1,0 +1,39 @@
+@import './../../styles/theme.scss';
+
+.welcome-container {
+  background-image: url('./../../assets/img/welcomeTable.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
+.welcome-content {
+ width: 800px;
+  background-color: var(--color-background-light);
+  color: var(--color-text-light);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  font-size: 26px;
+  font-weight: 500;
+  justify-content: flex-start;
+}
+
+.welcome-container.dark-theme .welcome-content {
+  width: 800px;
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  font-size: 26px;
+  font-weight: 500;
+  justify-content: flex-start;
+}

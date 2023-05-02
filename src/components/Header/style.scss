@@ -1,11 +1,20 @@
 @import './../../styles/theme.scss';
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-background);
+  }
 
   .logo {
     width: 60px;

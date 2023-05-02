@@ -12,6 +12,12 @@
       "loginGoogle": "Entrar com Google",
       "login": "Entrar com Email",
       "register": "Cadastrar"
+    },
+    "welcome":{
+      "title": "🍞 Bem-vindo(a) ao Compadre Padeiro, a rede social definitiva para padeiros amadores!",
+      "copy1": "👩‍🍳 Mergulhe em um mundo de panificação onde você pode descobrir e compartilhar receitas, trocar mensagens e postar suas experiências de panificação. Nossa comunidade amigável está sempre pronta para aprender, crescer e ajudar uns aos outros na busca pelo pão perfeito.",
+      "cta": "Join us!It's free!"
+    
     }
       
       
